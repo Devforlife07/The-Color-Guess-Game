@@ -1,0 +1,71 @@
+
+body{
+	background-color: #212121;
+ font-family: 'Germania One', cursive;
+ margin:0px;
+}
+h1{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 1.2;
+	background-color: steelblue;
+	font-weight: 800  !important;
+	color: white;
+	margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container{
+   margin: 15px auto;
+	max-width: 60%;
+
+	
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+	border-radius: 20%;
+	background: purple;
+	width: 30%;
+	height: 144.43px;
+    transition: all 0.8s;
+	margin: 1.66%;
+	}
+#message{
+	text-align: center;
+	color: blue;
+	display: inline-block;
+	width: 30%; 
+}
+#bar{
+	width: 100vw;
+	background-color: white;
+	height: 30px;
+   text-align: center; 
+}
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+#disp{
+    
+	font-size: 1.5em ;
+
+}
+button{
+	outline: none;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 800;
+	color: steelblue;
+	font-size: 1em;
+	letter-spacing: 2px;
+	transition: all 1.0s;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}
